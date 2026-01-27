@@ -1,0 +1,136 @@
+/* App-specific styles */
+
+/* Ensure smooth transitions between sections */
+section {
+  position: relative;
+}
+
+/* Hero section specific */
+.hero-section {
+  will-change: transform, opacity;
+}
+
+/* Video card enhancements */
+.video-card {
+  position: relative;
+}
+
+.video-card::before {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  background: linear-gradient(45deg, transparent, rgba(227, 6, 19, 0.1), transparent);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+}
+
+.video-card:hover::before {
+  opacity: 1;
+}
+
+/* CTA button enhancements */
+.cta-button {
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s ease;
+}
+
+.cta-button:hover::before {
+  left: 100%;
+}
+
+/* Social icon enhancements */
+.social-icon {
+  position: relative;
+}
+
+.social-icon::after {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.social-icon:hover::after {
+  border-color: #E30613;
+}
+
+/* Red wipe animation container */
+.red-wipe-container {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Manifesto text enhancements */
+.manifesto-text .word {
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.manifesto-text:hover .word {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.manifesto-text .word:hover {
+  color: #E30613;
+}
+
+/* Scroll indicator (optional) */
+.scroll-indicator {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  40% {
+    transform: translateX(-50%) translateY(-10px);
+  }
+  60% {
+    transform: translateX(-50%) translateY(-5px);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-text {
+    font-size: clamp(2rem, 12vw, 8rem) !important;
+  }
+  
+  .section-heading {
+    font-size: clamp(1.5rem, 6vw, 4rem) !important;
+  }
+  
+  .card-title {
+    font-size: clamp(1.25rem, 2.5vw, 2rem) !important;
+  }
+  
+  .manifesto-text {
+    font-size: clamp(0.875rem, 1.5vw, 1.25rem) !important;
+  }
+}
+
+/* Print styles */
+@media print {
+  .custom-cursor,
+  .loading-line {
+    display: none !important;
+  }
+}

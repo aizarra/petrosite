@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto+Mono:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 100%;
+    --card: 0 0% 0%;
+    --card-foreground: 0 0% 100%;
+    --popover: 0 0% 0%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 0 95% 45%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 10%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 63%;
+    --accent: 0 95% 45%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 0 95% 45%;
+    --radius: 0rem;
+    
+    --protest-red: #E30613;
+    --deep-black: #000000;
+    --pure-white: #FFFFFF;
+    --muted-grey: #A0A0A0;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  html {
+    scroll-behavior: auto;
+  }
+  
+  body {
+    @apply bg-black text-white;
+    font-family: 'Roboto Mono', monospace;
+    overflow-x: hidden;
+  }
+  
+  ::selection {
+    background-color: var(--protest-red);
+    color: white;
+  }
+}
+
+@layer components {
+  .font-heading {
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    line-height: 0.9;
+  }
+  
+  .font-body {
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  .text-protest-red {
+    color: var(--protest-red);
+  }
+  
+  .bg-protest-red {
+    background-color: var(--protest-red);
+  }
+  
+  .border-protest-red {
+    border-color: var(--protest-red);
+  }
+  
+  .hero-text {
+    font-size: clamp(3rem, 15vw, 12rem);
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+    line-height: 0.85;
+    letter-spacing: -0.02em;
+  }
+  
+  .section-heading {
+    font-size: clamp(2rem, 8vw, 6rem);
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+    line-height: 0.95;
+  }
+  
+  .card-title {
+    font-size: clamp(1.5rem, 3vw, 3rem);
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+  }
+  
+  .manifesto-text {
+    font-family: 'Roboto Mono', monospace;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    line-height: 1.8;
+    letter-spacing: 0.02em;
+  }
+  
+  .red-accent-line {
+    width: 4px;
+    background-color: var(--protest-red);
+  }
+  
+  .video-card {
+    border: 4px solid;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .video-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .video-card.border-red:hover {
+    border-color: #ff1a2e;
+    box-shadow: 0 0 30px rgba(227, 6, 19, 0.4);
+  }
+  
+  .video-card.border-white:hover {
+    border-color: #ffffff;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+  }
+  
+  .cta-button {
+    background-color: var(--protest-red);
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    padding: 1.25rem 3rem;
+    border: 4px solid var(--protest-red);
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background-color: white;
+    color: var(--protest-red);
+  }
+  
+  .custom-cursor {
+    width: 20px;
+    height: 20px;
+    background-color: var(--protest-red);
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none;
+    z-index: 9999;
+    mix-blend-mode: difference;
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s ease;
+  }
+  
+  .red-wipe {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--protest-red);
+    z-index: 30;
+    transform-origin: left center;
+  }
+  
+  .loading-line {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    width: 0;
+    height: 4px;
+    background-color: var(--protest-red);
+    z-index: 100;
+    transform: translateY(-50%);
+  }
+}
+
+/* Smooth scrolling with Lenis */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+/* Hide scrollbar but keep functionality */
+body::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
