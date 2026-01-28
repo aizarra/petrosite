@@ -161,7 +161,7 @@ function App() {
         </div>
 
         {/* Red Wipe Transition */}
-        <div className="relative h-[100vh]">
+        <div className="relative h-[60vh]">
           <RedWipe />
         </div>
 

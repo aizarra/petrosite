@@ -29,8 +29,8 @@ const Manifesto = () => {
           ease: 'power3.out',
           scrollTrigger: {
             trigger: sectionRef.current,
-            start: 'top 70%',
-            end: 'top 20%',
+            start: 'top 95%',
+            end: 'top 50%',
             toggleActions: 'play none none reverse',
           }
         }
@@ -46,7 +46,7 @@ const Manifesto = () => {
           ease: 'power3.out',
           scrollTrigger: {
             trigger: sectionRef.current,
-            start: 'top 80%',
+            start: 'top 100%',
             toggleActions: 'play none none reverse',
           }
         }
@@ -62,7 +62,7 @@ const Manifesto = () => {
           ease: 'power3.out',
           scrollTrigger: {
             trigger: sectionRef.current,
-            start: 'top 70%',
+            start: 'top 95%',
             toggleActions: 'play none none reverse',
           }
         }
