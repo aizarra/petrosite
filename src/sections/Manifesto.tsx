@@ -281,14 +281,10 @@ const Manifesto = () => {
               </p>
             </div>
 
-            {/* CTA Button */}
+            {/* CTA Button - Using plain anchor for Safari compatibility */}
             <div ref={buttonRef} className="pt-8">
-              <button
-                type="button"
-                onClick={() => {
-                  console.log('Button clicked!');
-                  window.location.href = '/manifiesto';
-                }}
+              <a
+                href="/manifiesto"
                 className="group inline-flex items-center gap-3 bg-protest-red hover:bg-red-700 text-white font-heading text-lg md:text-xl uppercase tracking-wider px-8 py-4 transition-all duration-300 cursor-pointer"
               >
                 <span>Leer el manifiesto completo</span>
@@ -300,7 +296,7 @@ const Manifesto = () => {
                 >
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
-              </button>
+              </a>
             </div>
           </div>
         </div>
