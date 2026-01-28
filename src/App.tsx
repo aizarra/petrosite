@@ -6,7 +6,7 @@ import Lenis from 'lenis';
 import Hero from './sections/Hero';
 import Manifesto from './sections/Manifesto';
 import RedWipe from './sections/RedWipe';
-import VideoCards from './sections/VideoCards';
+// import VideoCards from './sections/VideoCards'; // Hidden until videos are ready
 import Footer from './sections/Footer';
 
 import './App.css';
