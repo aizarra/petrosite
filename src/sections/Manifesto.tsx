@@ -286,6 +286,7 @@ const Manifesto = () => {
               <button
                 type="button"
                 onClick={() => {
+                  console.log('Button clicked!');
                   window.location.href = '/manifiesto';
                 }}
                 className="group inline-flex items-center gap-3 bg-protest-red hover:bg-red-700 text-white font-heading text-lg md:text-xl uppercase tracking-wider px-8 py-4 transition-all duration-300 cursor-pointer"
