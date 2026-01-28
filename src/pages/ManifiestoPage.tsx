@@ -215,7 +215,7 @@ const ManifiestoPage = () => {
           </p>
 
           <p className="font-body text-lg md:text-xl text-white font-semibold mb-12">
-            No es modernización. Es regresión. Un salto de cien años hacia atrás.
+           Quieren vender como modernización, una regresión de cien años.
           </p>
 
           {/* Section VI */}
