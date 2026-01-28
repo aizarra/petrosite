@@ -32,7 +32,7 @@ const ManifiestoPage = () => {
       <main className="max-w-4xl mx-auto px-4 sm:px-8 pt-24 pb-20">
         {/* Title */}
         <div className="mb-12 border-l-4 border-protest-red pl-6">
-          <h1 className="font-headline text-3xl md:text-4xl lg:text-5xl text-white uppercase tracking-wider leading-tight mb-4">
+          <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl text-white uppercase tracking-wider leading-tight mb-4">
             Manifiesto por la Soberanía Petrolera de Venezuela
           </h1>
           <p className="font-body text-xl md:text-2xl text-white/70 italic">
@@ -56,7 +56,7 @@ const ManifiestoPage = () => {
           </p>
 
           {/* Section I */}
-          <h2 className="font-headline text-2xl md:text-3xl text-protest-red uppercase tracking-wide mt-16 mb-6">
+          <h2 className="font-heading text-2xl md:text-3xl text-protest-red uppercase tracking-wide mt-16 mb-6">
             I. Lo que está en juego
           </h2>
 
@@ -77,7 +77,7 @@ const ManifiestoPage = () => {
           </p>
 
           {/* Section II */}
-          <h2 className="font-headline text-2xl md:text-3xl text-protest-red uppercase tracking-wide mt-16 mb-6">
+          <h2 className="font-heading text-2xl md:text-3xl text-protest-red uppercase tracking-wide mt-16 mb-6">
             II. La herencia que traicionan
           </h2>
 
@@ -114,7 +114,7 @@ const ManifiestoPage = () => {
           </p>
 
           {/* Section III */}
-          <h2 className="font-headline text-2xl md:text-3xl text-protest-red uppercase tracking-wide mt-16 mb-6">
+          <h2 className="font-heading text-2xl md:text-3xl text-protest-red uppercase tracking-wide mt-16 mb-6">
             III. Lo que dice la Constitución que juran defender
           </h2>
 
@@ -165,7 +165,7 @@ const ManifiestoPage = () => {
           </p>
 
           {/* Section IV */}
-          <h2 className="font-headline text-2xl md:text-3xl text-protest-red uppercase tracking-wide mt-16 mb-6">
+          <h2 className="font-heading text-2xl md:text-3xl text-protest-red uppercase tracking-wide mt-16 mb-6">
             IV. Los números de la entrega
           </h2>
 
@@ -194,7 +194,7 @@ const ManifiestoPage = () => {
           </p>
 
           {/* Section V */}
-          <h2 className="font-headline text-2xl md:text-3xl text-protest-red uppercase tracking-wide mt-16 mb-6">
+          <h2 className="font-heading text-2xl md:text-3xl text-protest-red uppercase tracking-wide mt-16 mb-6">
             V. El regreso al modelo que ya fracasó
           </h2>
 
@@ -219,7 +219,7 @@ const ManifiestoPage = () => {
           </p>
 
           {/* Section VI */}
-          <h2 className="font-headline text-2xl md:text-3xl text-protest-red uppercase tracking-wide mt-16 mb-6">
+          <h2 className="font-heading text-2xl md:text-3xl text-protest-red uppercase tracking-wide mt-16 mb-6">
             VI. Soberanía o protectorado
           </h2>
 
@@ -240,7 +240,7 @@ const ManifiestoPage = () => {
           </p>
 
           {/* Section VII */}
-          <h2 className="font-headline text-2xl md:text-3xl text-protest-red uppercase tracking-wide mt-16 mb-6">
+          <h2 className="font-heading text-2xl md:text-3xl text-protest-red uppercase tracking-wide mt-16 mb-6">
             VII. El futuro de nuestros hijos
           </h2>
 
@@ -265,7 +265,7 @@ const ManifiestoPage = () => {
           </p>
 
           {/* Section VIII */}
-          <h2 className="font-headline text-2xl md:text-3xl text-protest-red uppercase tracking-wide mt-16 mb-6">
+          <h2 className="font-heading text-2xl md:text-3xl text-protest-red uppercase tracking-wide mt-16 mb-6">
             VIII. Lo que exigimos
           </h2>
 
@@ -301,7 +301,7 @@ const ManifiestoPage = () => {
           </div>
 
           {/* Section IX */}
-          <h2 className="font-headline text-2xl md:text-3xl text-protest-red uppercase tracking-wide mt-16 mb-6">
+          <h2 className="font-heading text-2xl md:text-3xl text-protest-red uppercase tracking-wide mt-16 mb-6">
             IX. Un llamado a la unidad nacional
           </h2>
 
@@ -330,7 +330,7 @@ const ManifiestoPage = () => {
           </p>
 
           {/* Section X */}
-          <h2 className="font-headline text-2xl md:text-3xl text-protest-red uppercase tracking-wide mt-16 mb-6">
+          <h2 className="font-heading text-2xl md:text-3xl text-protest-red uppercase tracking-wide mt-16 mb-6">
             X. El momento es ahora
           </h2>
 
@@ -352,7 +352,7 @@ const ManifiestoPage = () => {
 
           {/* Signature section */}
           <div className="border-t border-white/20 pt-12 mt-16">
-            <h2 className="font-headline text-2xl md:text-3xl text-white uppercase tracking-wide mb-6">
+            <h2 className="font-heading text-2xl md:text-3xl text-white uppercase tracking-wide mb-6">
               Firma y adhesión
             </h2>
 
@@ -370,13 +370,13 @@ const ManifiestoPage = () => {
 
             {/* Closing */}
             <div className="text-center space-y-4 py-12 border-t border-b border-white/20">
-              <p className="font-headline text-xl md:text-2xl text-white uppercase tracking-wide">
+              <p className="font-heading text-xl md:text-2xl text-white uppercase tracking-wide">
                 Por la soberanía petrolera.
               </p>
-              <p className="font-headline text-xl md:text-2xl text-white uppercase tracking-wide">
+              <p className="font-heading text-xl md:text-2xl text-white uppercase tracking-wide">
                 Por el futuro de nuestros hijos.
               </p>
-              <p className="font-headline text-2xl md:text-3xl text-protest-red uppercase tracking-wide font-bold">
+              <p className="font-heading text-2xl md:text-3xl text-protest-red uppercase tracking-wide font-bold">
                 Por Venezuela.
               </p>
             </div>
