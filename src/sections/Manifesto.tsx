@@ -236,7 +236,10 @@ const Manifesto = () => {
                 Gumersindo Torres. Uslar Pietri. Pérez Alfonzo.
               </p>
               <p className="name font-heading text-xl md:text-2xl text-white/90 will-change-transform">
-                Betancourt. Chávez.—conservadores, liberales, socialistas— todos la defendieron.
+                Betancourt. Chávez.
+              </p>
+               <p className="name font-heading text-xl md:text-2xl text-white/90 will-change-transform">
+                Conservadores, liberales, socialistas— todos la defendieron.
               </p>
             </div>
 
@@ -244,7 +247,7 @@ const Manifesto = () => {
               ref={legacyRef}
               className="font-body text-lg md:text-xl text-white/80 leading-relaxed will-change-transform"
             >
-              Un siglo de soberanía petrolera construida por generaciones de venezolanos.
+              
             </p>
 
             {/* Separator */}
@@ -253,13 +256,13 @@ const Manifesto = () => {
             {/* Unity quote */}
             <div ref={unityRef} className="space-y-3">
               <p className="unity-line font-body text-xl md:text-2xl text-white leading-relaxed will-change-transform">
-                "Este manifiesto no es de izquierda ni de derecha.
+                Un siglo de soberanía petrolera construida por generaciones de venezolanos.
               </p>
               <p className="unity-line font-body text-xl md:text-2xl text-white leading-relaxed will-change-transform">
-                No es chavista ni antichavista.
+               
               </p>
               <p className="unity-line font-body text-xl md:text-2xl text-white font-semibold leading-relaxed will-change-transform">
-                Es venezolano."
+                
               </p>
             </div>
 
