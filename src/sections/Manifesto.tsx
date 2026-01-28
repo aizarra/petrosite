@@ -236,7 +236,7 @@ const Manifesto = () => {
                 Gumersindo Torres. Uslar Pietri. Pérez Alfonzo.
               </p>
               <p className="name font-heading text-xl md:text-2xl text-white/90 will-change-transform">
-                Betancourt. Chávez.
+                Betancourt. Chávez.—conservadores, liberales, socialistas— todos la defendieron.
               </p>
             </div>
 
