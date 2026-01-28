@@ -1,73 +1,74 @@
-# React + TypeScript + Vite
+# Manifiesto por la Soberanía Petrolera de Venezuela
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web platform for the Venezuelan Oil Sovereignty Manifesto - a call to the nation in defense of our future.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This site presents a manifesto against the reform of Venezuela's Organic Hydrocarbons Law, which threatens nearly a century of oil sovereignty built by generations of Venezuelans.
 
-## React Compiler
+**Live site:** https://aizarra.github.io/petrosite/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Animated hero section with GSAP scroll animations
+- Smooth scrolling powered by Lenis
+- Red wipe transition effect between sections
+- Full manifesto text with responsive typography
+- Mobile-friendly responsive design
+- Documentary video cards section
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **React 19** - UI framework
+- **TypeScript** - Type safety
+- **Vite** - Build tool
+- **Tailwind CSS** - Styling
+- **GSAP** - Scroll animations
+- **Lenis** - Smooth scrolling
+- **React Router** - Client-side routing
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Development
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+# Install dependencies
+pnpm install
+
+# Start development server
+pnpm dev
+
+# Build for production
+pnpm build
+
+# Preview production build
+pnpm preview
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Deployment
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+The site auto-deploys to GitHub Pages on every push to `main` via GitHub Actions.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+To deploy manually:
+1. Push changes to `main` branch
+2. GitHub Actions will build and deploy automatically
+3. Site will be live at https://aizarra.github.io/petrosite/
+
+## Project Structure
+
 ```
+src/
+├── pages/
+│   └── ManifiestoPage.tsx    # Full manifesto text
+├── sections/
+│   ├── Hero.tsx              # Hero section with title
+│   ├── Manifesto.tsx         # Manifesto summary with animations
+│   ├── RedWipe.tsx           # Red transition effect
+│   ├── VideoCards.tsx        # Documentary cards
+│   └── Footer.tsx            # Footer section
+├── App.tsx                   # Main app with routing
+├── main.tsx                  # Entry point
+└── index.css                 # Global styles
+```
+
+## License
+
+All rights reserved.
