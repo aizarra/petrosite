@@ -168,8 +168,8 @@ function App() {
         {/* Manifesto Section */}
         <Manifesto />
 
-        {/* Video Cards Section */}
-        <VideoCards />
+        {/* Video Cards Section - Hidden until videos are ready */}
+        {/* <VideoCards /> */}
 
         {/* Footer/CTA Section */}
         <Footer />
