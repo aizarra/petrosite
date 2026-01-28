@@ -184,11 +184,11 @@ const Manifesto = () => {
   return (
     <section
       ref={sectionRef}
-      className="relative min-h-screen w-full bg-black flex items-center py-20 z-20"
+      className="relative min-h-screen w-full bg-black flex items-center py-32 z-20"
     >
       <div
         ref={contentRef}
-        className="w-full max-w-5xl mx-auto px-4 sm:px-8 lg:px-16"
+        className="w-full max-w-5xl mx-auto px-8 sm:px-12 lg:px-20"
       >
         <div className="flex gap-8 md:gap-12">
           {/* Red accent line */}

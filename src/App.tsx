@@ -160,13 +160,13 @@ function App() {
           <Hero />
         </div>
 
-        {/* Manifesto Section */}
-        <Manifesto />
-
         {/* Red Wipe Transition */}
-        <div className="relative h-[150vh]">
+        <div className="relative h-[100vh]">
           <RedWipe />
         </div>
+
+        {/* Manifesto Section */}
+        <Manifesto />
 
         {/* Video Cards Section */}
         <VideoCards />

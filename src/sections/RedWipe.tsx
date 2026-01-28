@@ -13,9 +13,9 @@ const RedWipe = () => {
         scrollTrigger: {
           trigger: wipeRef.current,
           start: 'top top',
-          end: '+=150%',
+          end: '+=80%',
           pin: true,
-          scrub: 0.5,
+          scrub: 0.3,
         }
       });
 
