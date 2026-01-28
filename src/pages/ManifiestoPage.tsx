@@ -48,7 +48,7 @@ const ManifiestoPage = () => {
           </p>
 
           <p className="font-body text-lg md:text-xl text-white/90 leading-relaxed mb-8">
-            Nos dirigimos a ustedes en un momento de extrema gravedad para el destino de nuestra República. Mientras escribimos estas líneas, se consuma en la Asamblea Nacional la entrega del principal recurso estratégico de Venezuela: nuestro petróleo. Sin debate público, sin consulta popular, sin transparencia, y en abierta violación de la Constitución, se aprueba una reforma que desmantela casi un siglo de soberanía petrolera construida por generaciones de venezolanos.
+            Nos dirigimos a ustedes en un momento de extrema gravedad para el destino de nuestra República. Mientras escribimos estas líneas, se consuma en la Asamblea Nacional la entrega del principal recurso estratégico de Venezuela: nuestro petróleo. Sin consulta popular, sin transparencia, y en abierta violación de la Constitución, se aprueba una reforma que desmantela casi un siglo de soberanía petrolera construida por generaciones de venezolanos.
           </p>
 
           <p className="font-body text-lg md:text-xl text-white/90 leading-relaxed mb-12">
@@ -65,7 +65,7 @@ const ManifiestoPage = () => {
           </p>
 
           <p className="font-body text-lg md:text-xl text-white/90 leading-relaxed mb-6">
-            La reforma a la Ley Orgánica de Hidrocarburos propuesta no es un ajuste para aumentar nuestra competitividad. Es una capitulación. Transfiere a manos privadas —nacionales y extranjeras— el control efectivo de la industria petrolera. Reduce PDVSA a una agencia administradora de contratos. Saca las disputas de los tribunales venezolanos para someterlas a árbitros internacionales. Recorta a la mitad las regalías que recibe la nación. Legaliza en secreto contratos que violan la Constitución vigente.
+            La reforma a la Ley Orgánica de Hidrocarburos propuesta no es un ajuste para aumentar nuestra competitividad. Es una capitulación. Transfiere a manos privadas —nacionales y extranjeras— el control efectivo de los yacimientos y activos de producción de la industria petrolera. Reduce PDVSA a una agencia administradora de contratos. Saca las disputas de los tribunales venezolanos para someterlas a árbitros internacionales. Recorta a la mitad las regalías que recibe la nación. Legaliza en secreto contratos que violan la Constitución vigente.
           </p>
 
           <p className="font-body text-lg md:text-xl text-white/90 leading-relaxed mb-6">
@@ -73,7 +73,7 @@ const ManifiestoPage = () => {
           </p>
 
           <p className="font-body text-xl md:text-2xl text-protest-red font-semibold mb-12">
-            Nos están robando el futuro a puertas cerradas.
+            Nos están robando nuestro futuro y el futuro de nuestros hijos.
           </p>
 
           {/* Section II */}
@@ -106,7 +106,7 @@ const ManifiestoPage = () => {
           </p>
 
           <p className="font-body text-lg md:text-xl text-white/90 leading-relaxed mb-6">
-            <strong className="text-white">Hugo Chávez</strong> revirtió la apertura de los años 90, recuperó el control estatal y elevó la participación fiscal. La Constitución de 1999 —aprobada por el pueblo en referéndum— reservó al Estado la actividad petrolera y prohibió la privatización de PDVSA.
+            <strong className="text-white">Hugo Chávez</strong> revirtió la nefasta apertura de los años 90 —que desembocó en la mayor pobreza histórica experimentada hasta entonces por nuestra nación—, recuperó el control estatal y elevó la participación fiscal. La Constitución de 1999 —aprobada por el pueblo en referéndum— reservó al Estado la actividad petrolera y prohibió la privatización de PDVSA.
           </p>
 
           <p className="font-body text-lg md:text-xl text-white/90 leading-relaxed mb-12">
@@ -148,11 +148,11 @@ const ManifiestoPage = () => {
             </li>
             <li className="flex items-start gap-3">
               <span className="w-2 h-2 bg-protest-red flex-shrink-0 mt-2"></span>
-              <span className="font-body text-base md:text-lg text-white/90">Reduce a PDVSA a un cascarón mientras los privados operan, comercializan y capturan la renta (violación del Art. 303).</span>
+              <span className="font-body text-base md:text-lg text-white/90">Expone a PDVSA a su desaparición, reduciéndola a un cascarón mientras los privados operan, comercializan y capturan la renta (violación del Art. 303).</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="w-2 h-2 bg-protest-red flex-shrink-0 mt-2"></span>
-              <span className="font-body text-base md:text-lg text-white/90">Elimina la aprobación de la Asamblea Nacional, que ahora solo "será notificada" (violación del Art. 150).</span>
+              <span className="font-body text-base md:text-lg text-white/90">Elimina la aprobación de la Asamblea Nacional, requiriendo ahora solo "ser notificada" (violación del Art. 150).</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="w-2 h-2 bg-protest-red flex-shrink-0 mt-2"></span>
@@ -161,7 +161,7 @@ const ManifiestoPage = () => {
           </ul>
 
           <p className="font-body text-lg md:text-xl text-white font-semibold mb-12">
-            No se puede reformar una ley a costa de la Constitución.
+            No se puede reformar una ley en contra de la Constitución.
           </p>
 
           {/* Section IV */}
@@ -170,15 +170,15 @@ const ManifiestoPage = () => {
           </h2>
 
           <p className="font-body text-lg md:text-xl text-white/90 leading-relaxed mb-6">
-            La reforma no solo viola la Constitución. Entrega miles de millones de dólares que pertenecen a los venezolanos.
+            La reforma no solo viola la Constitución. Transfiere miles de millones de dólares de las arcas públicas a manos privadas.
           </p>
 
           <p className="font-body text-lg md:text-xl text-white/90 leading-relaxed mb-6">
-            Las regalías —el pago que recibe la nación por la extracción de su petróleo— se reducen del 30% al 20% para los contratos privados y al 15% para las empresas mixtas. Con los niveles de producción y precios actuales, esto significa una pérdida de aproximadamente <strong className="text-protest-red">7.445 millones de dólares anuales</strong> en ingresos fiscales.
+            Las regalías —el pago que recibe la nación por la extracción de su petróleo— se reducen del 30% al 20% para los contratos privados y al 15% para las empresas mixtas, a discreción del Ejecutivo. Con los niveles de producción y precios actuales, esto significa una pérdida de aproximadamente <strong className="text-protest-red">4.300 millones de dólares anuales</strong> en ingresos fiscales. Si se alcanzan los 5 millones de barriles diarios que prometen sus promotores, las pérdidas superarían los <strong className="text-protest-red">18.000 millones de dólares anuales</strong>.
           </p>
 
           <p className="font-body text-lg md:text-xl text-white/90 leading-relaxed mb-6">
-            Para dimensionarlo: esa cifra equivale a más de 20 veces el presupuesto del Ministerio de Salud. Podría financiar la reconstrucción del sistema eléctrico nacional. Podría pagar becas universitarias para todos los estudiantes del país durante una década.
+            Para dimensionarlo: la cifra actual equivale a más de 10 veces el presupuesto del Ministerio de Salud. Podría financiar la reconstrucción del sistema eléctrico nacional. Podría pagar becas universitarias para todos los estudiantes del país durante años.
           </p>
 
           <p className="font-body text-lg md:text-xl text-white/90 leading-relaxed mb-6">
@@ -215,7 +215,7 @@ const ManifiestoPage = () => {
           </p>
 
           <p className="font-body text-lg md:text-xl text-white font-semibold mb-12">
-            Estamos retrocediendo cien años.
+            No es modernización. Es regresión. Un salto de cien años hacia atrás.
           </p>
 
           {/* Section VI */}
@@ -285,17 +285,12 @@ const ManifiestoPage = () => {
             </div>
 
             <div className="bg-white/5 p-6 border-l-4 border-protest-red">
-              <h3 className="font-body text-lg md:text-xl text-white font-semibold mb-2">3. Relegitimación de la institucionalidad.</h3>
-              <p className="font-body text-base md:text-lg text-white/80">Venezuela no puede seguir siendo gobernada por instituciones que no representan a nadie. Exigimos un proceso de relegitimación que devuelva a los venezolanos el derecho a elegir a quienes toman decisiones sobre nuestro patrimonio común. Sin legitimidad popular, ningún gobierno tiene autoridad moral para entregar los recursos de la nación.</p>
-            </div>
-
-            <div className="bg-white/5 p-6 border-l-4 border-protest-red">
-              <h3 className="font-body text-lg md:text-xl text-white font-semibold mb-2">4. Debate nacional sobre el futuro petrolero.</h3>
+              <h3 className="font-body text-lg md:text-xl text-white font-semibold mb-2">3. Debate nacional sobre el futuro petrolero.</h3>
               <p className="font-body text-base md:text-lg text-white/80">Cualquier modificación al régimen de hidrocarburos debe ser producto de un debate amplio, informado y democrático. Los venezolanos debemos decidir colectivamente cómo administrar nuestro principal recurso estratégico. Esa decisión no puede tomarse en despachos cerrados ni imponerse por decreto.</p>
             </div>
 
             <div className="bg-white/5 p-6 border-l-4 border-protest-red">
-              <h3 className="font-body text-lg md:text-xl text-white font-semibold mb-2">5. Defensa de la jurisdicción venezolana.</h3>
+              <h3 className="font-body text-lg md:text-xl text-white font-semibold mb-2">4. Defensa de la jurisdicción venezolana.</h3>
               <p className="font-body text-base md:text-lg text-white/80">Las disputas sobre nuestro petróleo deben resolverse en tribunales venezolanos, bajo leyes venezolanas. Someter la industria petrolera a arbitraje internacional es renunciar a la soberanía jurídica. Exigimos el respeto irrestricto del artículo 151 de la Constitución.</p>
             </div>
           </div>
