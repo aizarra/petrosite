@@ -170,6 +170,7 @@
     background-color: var(--protest-red);
     z-index: 30;
     transform-origin: left center;
+    pointer-events: none;
   }
   
   .loading-line {
