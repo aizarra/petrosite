@@ -90,8 +90,8 @@ const Footer = () => {
           ref={headlineRef}
           className="section-heading text-white mb-12 will-change-transform"
         >
-          UNETE A LA<br />
-          <span className="text-protest-red">LUCHA</span>
+          DEFENDAMOS<br />
+          <span className="text-protest-red">EL FUTURO</span>
         </h2>
         
         {/* CTA Button */}
