@@ -100,17 +100,17 @@ const VideoCards = () => {
   const videos = [
     {
       title: 'LA VERDAD',
-      image: '/thumb_verdad.jpg',
+      image: `${import.meta.env.BASE_URL}thumb_verdad.jpg`,
       borderColor: 'red' as const,
     },
     {
       title: 'LAS MENTIRAS',
-      image: '/thumb_mentiras.jpg',
+      image: `${import.meta.env.BASE_URL}thumb_mentiras.jpg`,
       borderColor: 'white' as const,
     },
     {
       title: 'LA LUCHA',
-      image: '/thumb_lucha.jpg',
+      image: `${import.meta.env.BASE_URL}thumb_lucha.jpg`,
       borderColor: 'red' as const,
     },
   ];
