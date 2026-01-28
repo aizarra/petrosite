@@ -32,37 +32,37 @@ const Hero = () => {
   }, []);
 
   return (
-    <section 
+    <section
       ref={sectionRef}
       className="relative min-h-screen w-full bg-black flex items-center justify-center overflow-hidden z-10"
     >
-      <div className="w-full px-4 sm:px-8 lg:px-16">
+      <div className="w-full px-6 sm:px-10 lg:px-20">
         <div className="flex flex-col items-center text-center">
           {/* Line 1: EL PETROLEO */}
           <div className="overflow-hidden">
-            <div 
+            <div
               ref={line1Ref}
-              className="hero-text text-white will-change-transform"
+              className="font-heading text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl text-white will-change-transform"
             >
               EL PETROLEO
             </div>
           </div>
-          
+
           {/* Line 2: ES DE LOS */}
           <div className="overflow-hidden">
-            <div 
+            <div
               ref={line2Ref}
-              className="hero-text text-white will-change-transform"
+              className="font-heading text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl text-white will-change-transform"
             >
               ES DE LOS
             </div>
           </div>
-          
+
           {/* Line 3: VENEZOLANOS (Red) */}
           <div className="overflow-hidden">
-            <div 
+            <div
               ref={line3Ref}
-              className="hero-text text-protest-red will-change-transform"
+              className="font-heading text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl text-protest-red will-change-transform"
             >
               VENEZOLANOS
             </div>

@@ -204,7 +204,7 @@ const Manifesto = () => {
             <div>
               <h2
                 ref={titleRef}
-                className="font-headline text-3xl md:text-4xl lg:text-5xl text-white uppercase tracking-wider leading-tight will-change-transform"
+                className="font-heading text-3xl md:text-4xl lg:text-5xl text-white uppercase tracking-wider leading-tight will-change-transform"
               >
                 Manifiesto por la Soberanía Petrolera de Venezuela
               </h2>
@@ -232,10 +232,10 @@ const Manifesto = () => {
 
             {/* Historical names */}
             <div ref={namesRef} className="space-y-2">
-              <p className="name font-headline text-xl md:text-2xl text-white/90 will-change-transform">
+              <p className="name font-heading text-xl md:text-2xl text-white/90 will-change-transform">
                 Gumersindo Torres. Uslar Pietri. Pérez Alfonzo.
               </p>
-              <p className="name font-headline text-xl md:text-2xl text-white/90 will-change-transform">
+              <p className="name font-heading text-xl md:text-2xl text-white/90 will-change-transform">
                 Betancourt. Chávez.
               </p>
             </div>
@@ -268,13 +268,13 @@ const Manifesto = () => {
 
             {/* Closing */}
             <div ref={closingRef} className="space-y-2">
-              <p className="closing-line font-headline text-xl md:text-2xl text-white uppercase tracking-wide will-change-transform">
+              <p className="closing-line font-heading text-xl md:text-2xl text-white uppercase tracking-wide will-change-transform">
                 Por la soberanía petrolera.
               </p>
-              <p className="closing-line font-headline text-xl md:text-2xl text-white uppercase tracking-wide will-change-transform">
+              <p className="closing-line font-heading text-xl md:text-2xl text-white uppercase tracking-wide will-change-transform">
                 Por el futuro de nuestros hijos.
               </p>
-              <p className="closing-line font-headline text-2xl md:text-3xl text-protest-red uppercase tracking-wide font-bold will-change-transform">
+              <p className="closing-line font-heading text-2xl md:text-3xl text-protest-red uppercase tracking-wide font-bold will-change-transform">
                 Por Venezuela.
               </p>
             </div>
@@ -283,7 +283,7 @@ const Manifesto = () => {
             <div ref={buttonRef} className="pt-8 will-change-transform">
               <Link
                 to="/manifiesto"
-                className="group inline-flex items-center gap-3 bg-protest-red hover:bg-red-700 text-white font-headline text-lg md:text-xl uppercase tracking-wider px-8 py-4 transition-all duration-300"
+                className="group inline-flex items-center gap-3 bg-protest-red hover:bg-red-700 text-white font-heading text-lg md:text-xl uppercase tracking-wider px-8 py-4 transition-all duration-300"
               >
                 <span>Leer el manifiesto completo</span>
                 <svg
